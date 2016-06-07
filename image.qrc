@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/Image">
+        <file>importfile.png</file>
+        <file>export.png</file>
+        <file>MilaOCR.png</file>
+    </qresource>
+</RCC>
