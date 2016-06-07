@@ -1,10 +1,23 @@
 /**
     OCR Project for Professor Desalvo's PIC 10C Spring 2016 class
 
-    Group members:  Jack Wu, Zane Karl, Bess , Jennifer Okamura
-    Researcher:     Mila Oiva
-    Objective:      Create a program that can read in .gif images and convert them to
-                    .txt files using optical character recognition.
+    Group members:      Jack Wu, Zane Karl, Bess , Jennifer Okamura
+    Researcher:         Mila Oiva
+    Objective:          Create a program that accepts .gif images of historical newspapers
+                        written in Polish and convert them to .txt files.
+    Project Details:    Given the time constraint and magnitude of this project, we decided
+                        to use an api that performs optical character recognition on images
+                        and implement this into a program designed in Qt/C++. More inform-
+                        ation can be found at the following link: https://ocr.space/OCRAPI
+
+                        The resulting program allows a user to upload an image no greater
+                        than 1MB and output the results of the character recognition to
+                        on the interface. Then a user may export the results to a .txt
+                        file and save it to their computer.
+
+                        We would like to implement a cropping tool that will allow the user
+                        to extract smaller parts of an image that is large in size and we
+                        plan on completing this sometime during the summer of 2016.
 */
 
 #ifndef MAINWINDOW_H
